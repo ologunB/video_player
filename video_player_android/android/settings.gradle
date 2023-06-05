@@ -1,0 +1,12 @@
+rootProject.name = 'video_player_android'
+
+include ':app'
+include ':release:library:all'
+
+
+/*
+project(':core').projectDir = new File('libs/core')
+project(':hls').projectDir = new File('libs/hls')
+project(':dash').projectDir = new File('libs/dash')
+project(':smoothstreaming').projectDir = new File('libs/smoothstreaming')
+*/
